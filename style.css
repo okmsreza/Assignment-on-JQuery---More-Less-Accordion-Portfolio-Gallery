@@ -1,0 +1,169 @@
+ 
+/* ------------------------------------------------ 
+Project: Assignment on JQuery - More-Less, Accordion, Portfolio Gallery 
+Author: M S Reza 
+------------------------------------------------ */
+
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,600,700,800,900');
+ body {
+     font-family: 'Nunito', sans-serif;
+     position: relative;
+     font-weight: normal;
+     font-style: normal;
+     font-size: 15px;
+     line-height: 1.7;
+     color: #262821;
+     overflow-x: hidden;
+     background-color: #141414;
+     background: url('../images/bg/bg.png') repeat;
+}
+ h1, h2, h3, h4, h5, h6 {
+     font-weight: normal;
+     margin-top: 0px;
+     margin-bottom: 0px;
+     text-transform: capitalize;
+}
+ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+     color: inherit;
+}
+
+a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h2{ 
+    color: #fe0505;
+    font-weight: 800;
+    text-align: left;
+    margin-top:30px;
+}
+
+h4{
+    color:#DE3E15;
+    font-weight: 400;
+    text-align:left;
+    padding-top:20px;    
+    padding-bottom: 20px;
+}
+
+
+.nav li a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+.nav-tabs  a {
+     color: #8C8888;
+    margin-left: 7px;
+    border: 1px solid #DDD;
+    border-bottom: none;
+    border-radius: 8px 8px 0px 0px;
+    -moz-border-radius: 8px 8px 0px 0px;
+    -webkit-border-radius: 8px 8px 0px 0px;
+   
+}
+.nav-tabs .nav-link.active,  
+.nav-tabs .nav-link.active:hover {
+    color: #fff;
+    background-color: #FFF;
+    background: #DA2B10;
+    border-radius: 8px 8px 0px 0px;
+    -moz-border-radius: 8px 8px 0px 0px;
+    -webkit-border-radius: 8px 8px 0px 0px;
+}
+.moreCar,#faq2{
+    display: none;
+}
+
+.toggle-btn {
+    cursor: pointer;
+    background: #fff none repeat scroll 0% 0%;
+    font-size: 20px;
+    color: rgb(222, 62, 21);
+    text-align: center;
+}
+.icon {
+    display: block;
+    margin-top: -10px;
+    text-align: center;
+}
+#type img{
+
+    display: block;
+    margin: 20px 0 0 0;
+}
+.img-fluid{
+    margin-top: 10px;
+}
+.image-gallery{
+    padding: 50px 0px;
+}
+.web-design{
+    display: none;
+    position: relative;
+    width: 100%;
+}
+.graphic{
+    display: none;
+    position: relative;
+    width: 100%;
+}
+.wordpress{
+    display: none;
+    position: relative;
+    width: 100%;
+}
+.marketing{
+    display: none;
+    position: relative;
+    width: 100%;
+}
+.img-hover-content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    top: 0;
+    right: 0;
+    opacity: 0;
+    cursor: pointer
+}
+.img-hover-content h5{
+    position: absolute;
+    top: 36%;
+    right: 40%;
+    text-align: center;
+    color: #fff;
+}
+.img-hover-content .fa-link {
+    position: absolute;
+    top: 60%;
+    right: 50%;
+    text-align: center;
+    color: #fff;
+}
+.img-hover-content:hover {
+    opacity: 1;
+}
+
+@media screen and (max-width: 767px){
+   h2{
+    font-size:20px;
+    text-align: center;
+   } 
+   h4{
+    font-size:20px;
+    text-align: center;
+   } 
+   #type img {
+    margin: 20px auto;
+}
+   .img-fluid {
+    padding: 15px;
+}
+.btn {
+    padding: .275rem .45rem;
+    font-size: .9rem;
+}
+}

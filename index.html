@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Assignment on JQuery  - More-Less, Accordion, Portfolio Gallery">
+    <meta name="keywords" content="HTML,CSS,JavaScript,More-Less, Accordion, Portfolio Gallery">
+    <meta name="author" content="Md. Salim Reza">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Assignment on JQuery - More-Less, Accordion, Portfolio Gallery</title>
+</head>
+
+<body>
+    <section>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <h2>LES VOITURES AMERICAINES ÇA SE PASSE CHEZ SYLC EXPORT</h2>
+                    <h4>Recherche Rapide:</h4>
+
+                </div>
+            </div>
+        </div>
+
+        <!--button tab-->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="type-tab" data-toggle="tab" href="#type" role="tab" aria-controls="Type" aria-selected="true">Type</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="marque-tab" data-toggle="tab" href="#marque" role="tab" aria-controls="Marque" aria-selected="false">Marque</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="gallery-tab" data-toggle="tab" href="#gallery" role="tab" aria-controls="gallery" aria-selected="false">Portfolio</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--car picture section start-->
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade active show" id="type" role="tabpanel" aria-labelledby="type-tab">
+                    <div class="row">
+
+                        <div class="col-md-3">
+
+                            <img src="img/pony.png">
+
+                        </div>
+
+                        <div class="col-md-3">
+                            <img src="img/muscl.png">
+
+                        </div>
+
+                        <div class="col-md-3">
+                            <img src="img/muscl.png">
+
+                        </div>
+
+                        <div class="col-md-3">
+                            <img src="img/pony.png">
+
+                        </div>
+                    </div>
+
+                    <div class="moreCar">
+                        <div class=" row ">
+
+                            <div class="col-md-3">
+
+                                <img src="img/pony.png">
+
+                            </div>
+
+                            <div class="col-md-3">
+                                <img src="img/muscl.png">
+
+                            </div>
+
+                            <div class="col-md-3">
+                                <img src="img/muscl.png">
+
+                            </div>
+
+                            <div class="col-md-3">
+                                <img src="img/pony.png">
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row justify-content-center mt-3">
+                        <div class="col-md-4 moreShow" id="moreShow">
+                            <p class="toggle-btn"> VOIR PLUS DE TYPE</p>
+                            <i class="fa fa-angle-down icon"></i>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="marque" role="tabpanel" aria-labelledby="marque-tab">
+                    <div class="js-accordian">
+                        <div class="card">
+                            <div class="card-header faq1">
+                                <h5 class="mb-0">
+        <button class="btn btn-link " type="button">
+          Faq Title One
+        </button>
+        <i class="fa fa-minus float-right"></i>
+      </h5>
+                            </div>
+
+                            <div id="faq1">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header faq2">
+                                <h5 class="mb-0">
+        <button class="btn btn-link" type="button" >
+          Faq Title Two
+        </button>
+        <i class="fa fa-plus float-right"></i>
+      </h5>
+                            </div>
+                            <div id="faq2">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="gallery" role="tabpanel" aria-labelledby="gallery-tab">
+                    <div class="row">
+
+                        <div class="col-md-12 text-center image-gallery">
+                            <button type="button" class="btn btn-primary all-gallery">ALL</button>
+                            <button type="button" class="btn btn-secondary web-gallery">Web</button>
+                            <button type="button" class="btn btn-success graphic-gallery">Graphic</button>
+                            <button type="button" class="btn btn-danger wp-gallery">Wordpress</button>
+                            <button type="button" class="btn btn-warning marketing-gallery">Markating</button>
+                        </div>
+
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-md-3">
+
+                            <div class="web-design">
+                                <img class="img-fluid " src="img/wdesign.jpg" alt="web design">
+                                <div class="img-hover-content">
+                                    <h5>Details</h5>
+                                    <i class="fas fa-link"></i>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3">
+
+                            <div class="web-design">
+                                <img class="img-fluid " src="img/wdesign.jpg" alt="web design">
+                                <div class="img-hover-content">
+                                    <h5>Details</h5>
+                                    <i class="fas fa-link"></i>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3">
+
+                            <div class="web-design">
+                                <img class="img-fluid " src="img/wdesign.jpg" alt="web design">
+                                <div class="img-hover-content">
+                                    <h5>Details</h5>
+                                    <i class="fas fa-link"></i>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3">
+
+                            <div class="web-design">
+                                <img class="img-fluid " src="img/wdesign.jpg" alt="web design">
+                                <div class="img-hover-content">
+                                    <h5>Details</h5>
+                                    <i class="fas fa-link"></i>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-3">
+
+                            <div class="graphic">
+                                <img class="img-fluid" src="img/gdesign.jpg" alt="Graphic design">
+                                <div class="img-hover-content">
+                                    <h5>Details</h5>
+                                    <i class="fas fa-link"></i>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3">
+
+                            <div class="graphic">
+                                <img class="img-fluid" src="img/gdesign.jpg" alt="Graphic design">
+                                <div class="img-hover-content">
+                                    <h5>Details</h5>
+                                    <i class="fas fa-link"></i>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3">
+
+                            <div class="graphic">
+                                <img class="img-fluid" src="img/gdesign.jpg" alt="Graphic design">
+                                <div class="img-hover-content">
+                                    <h5>Details</h5>
+                                    <i class="fas fa-link"></i>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3">
+
+                            <div class="graphic">
+                                <img class="img-fluid" src="img/gdesign.jpg" alt="Graphic design">
+                                <div class="img-hover-content">
+                                    <h5>Details</h5>
+                                    <i class="fas fa-link"></i>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-3">
+
+                            <div class="wordpress">
+                                <img class="img-fluid" src="img/wordpress.png" alt="WordPress">
+                                <div class="img-hover-content">
+                                    <h5>Details</h5>
+                                    <i class="fas fa-link"></i>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3">
+
+                            <div class="wordpress">
+                                <img class="img-fluid" src="img/wordpress.png" alt="WordPress">
+                                <div class="img-hover-content">
+                                    <h5>Details</h5>
+                                    <i class="fas fa-link"></i>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3">
+
+                            <div class="wordpress">
+                                <img class="img-fluid" src="img/wordpress.png" alt="WordPress">
+                                <div class="img-hover-content">
+                                    <h5>Details</h5>
+                                    <i class="fas fa-link"></i>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3">
+
+                            <div class="wordpress">
+                                <img class="img-fluid" src="img/wordpress.png" alt="WordPress">
+                                <div class="img-hover-content">
+                                    <h5>Details</h5>
+                                    <i class="fas fa-link"></i>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-3">
+
+                            <div class="marketing">
+                                <img class="img-fluid" src="img/marketing.jpg" alt="Marketing">
+                                <div class="img-hover-content">
+                                    <h5>Details</h5>
+                                    <i class="fas fa-link"></i>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3">
+
+                            <div class="marketing">
+                                <img class="img-fluid" src="img/marketing.jpg" alt="Marketing">
+                                <div class="img-hover-content">
+                                    <h5>Details</h5>
+                                    <i class="fas fa-link"></i>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3">
+
+                            <div class="marketing">
+                                <img class="img-fluid" src="img/marketing.jpg" alt="Marketing">
+                                <div class="img-hover-content">
+                                    <h5>Details</h5>
+                                    <i class="fas fa-link"></i>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3">
+
+                            <div class="marketing">
+                                <img class="img-fluid" src="img/marketing.jpg" alt="Marketing">
+                                <div class="img-hover-content">
+                                    <h5>Details</h5>
+                                    <i class="fas fa-link"></i>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+
+        <script type="text/javascript">
+            "use strict";
+
+            $(".marque").hide();
+
+            $(".moreShow").click(function() {
+
+                $(".moreCar").toggle(500);
+
+                $("#moreShow p").text() === 'VOIR MOINS DE TYPE' ? $("#moreShow p").text('VOIR PLUS DE TYPE') : $("#moreShow p").text('VOIR MOINS DE TYPE');
+                $(this).find('i').toggleClass('fa-angle-down fa-angle-up');
+            });
+
+            $(".faq1").click(function() {
+
+                $("#faq1").toggle(500);
+                $("#faq2").hide();
+
+                $(this).find('i').toggleClass('fa-minus fa-plus');
+            });
+
+            $(".faq2").click(function() {
+                $("#faq1").hide();
+                $("#faq2").toggle(500);
+                $(this).find('i').toggleClass('fa-minus fa-plus');
+            });
+
+            $('.web-design').show(500);
+            $('.graphic').show(500);
+            $('.wordpress').show(500);
+            $('.marketing').show(500);
+
+            $('.all-gallery').click(function() {
+                $('.web-design').show(500);
+                $('.graphic').show(500);
+                $('.wordpress').show(500);
+                $('.marketing').show(500);
+
+            });
+
+            $('.web-gallery').click(function() {
+                $('.web-design').show(500);
+                $('.graphic').hide();
+                $('.wordpress').hide();
+                $('.marketing').hide();
+
+            });
+
+            $('.graphic-gallery').click(function() {
+                $('.web-design').hide();
+                $('.graphic').show(500);
+                $('.wordpress').hide();
+                $('.marketing').hide();
+
+            });
+
+            $('.wp-gallery').click(function() {
+                $('.web-design').hide();
+                $('.graphic').hide();
+                $('.wordpress').show(500);
+                $('.marketing').hide();
+
+            });
+            $('.marketing-gallery').click(function() {
+                $('.web-design').hide();
+                $('.graphic').hide();
+                $('.wordpress').hide();
+                $('.marketing').show(500);
+
+            });
+        </script>
+</body>
+
+</html>
